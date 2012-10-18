@@ -57,7 +57,6 @@ end
 
 print "Hello "+BASEDIR
 
-
 @@rb = RingBuffer.new LOG_ENTRIES
 @@ry = RundeckYaml.new
 
