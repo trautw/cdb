@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<title> 
+  
+Visualizing relations between bands and artists - JavaScript InfoVis Toolkit
+ 
+</title> 
+<link type="text/css" href="./css/style.css" rel="stylesheet" /> 
+<link type="text/css" href="./css/example1-hypertree.css" rel="stylesheet" /> 
+ 
+<!--[if IE]><script language="javascript" type="text/javascript" src="/static/js/excanvas.js"></script><![endif]--> 
+<script type="text/javascript" src="./js/Core.js"></script> 
+<script type="text/javascript" src="./js/Canvas.js"></script> 
+<script type="text/javascript" src="./js/Hypertree.js"></script>  
+<script type="text/javascript" src="./js/mootools-1.2.js"></script>
+
+<script type="text/javascript" src="./js/example1-hypertree.js"></script>  
+</head> 
+ 
+<body> 
+ 
+<div id="header"> 
+  
+ 
+ 
+</div> 
+<div id="left"> 
+  
+  <div  class="toggler">Navigation</div> 
+<div class="element"> 
+  <div class="content" id="navigation"> 
+      <div> 
+      Discover artists relations by common performances in albums, bands and songs.
+      <br /><br /> 
+      This visualizer uses the <a href="http://tree.musictrails.com.ar/">musictrails service </a> to gather relations between artists and more information you may find under the <b>Details</b> toggler.
+      <br /><br /> 
+      You can use the <b>History</b> toggler to browse to a previous selected node.
+      <br /><br /> 
+      Some interesting visualizations you can browse:
+      <ul> 
+        <li> 
+          <a href="#">Metallica</a> 
+        </li> 
+        <li> 
+          <a href="#">Pearl Jam</a> 
+        </li> 
+        <li> 
+          <a href="#">The Beatles</a> 
+        </li> 
+        <li> 
+          <a href="#">Nine Inch Nails</a> 
+        </li> 
+      </ul> 
+      Click on a label to center the node. A <em>morphing</em> transformation will then take place to show new relations.
+      <br /><br /> 
+      This visualization was made with the <a href="http://thejit.org">JavaScript InfoVis Toolkit</a> 
+      </div> 
+ 
+    </div> 
+
+</div> 
+ 
+<div class="toggler">Details</div> 
+<div class="element"> 
+  <div class="content" id="details"> 
+  
+  </div> 
+</div> 
+ 
+<div class="toggler">History</div> 
+<div class="element"> 
+  <div class="content" id="history"> 
+   Here are stored your previous selected nodes.
+   <ul id="previous-selected-nodes"> 
+    
+   </ul> 
+  </div> 
+</div> 
+  
+</div> 
+
+<div id="infovis"></div> 
+ 
+</body> 
+</html> 
+<div id="log"></div> 
