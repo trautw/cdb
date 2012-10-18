@@ -17,6 +17,7 @@ require File.join(File.dirname(__FILE__), "rundeckyaml.rb")
 
 # set :public_folder, File.dirname(__FILE__) + '/public'
 
+
 # DEBUG       = false
 DEBUG       = true
 LOG_ENTRIES = 100

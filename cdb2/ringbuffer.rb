@@ -23,4 +23,3 @@ class RingBuffer < Array
     return self.array_element( - 1 + offset )
   end
 end
-

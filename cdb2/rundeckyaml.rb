@@ -25,4 +25,3 @@ class RundeckYaml
   end
 
 end
-
